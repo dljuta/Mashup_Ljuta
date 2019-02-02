@@ -15,6 +15,6 @@
       <TextField fx:id="ende" layoutX="97.0" layoutY="59.0" />
       <TextField layoutX="97.0" layoutY="85.0" />
       <TextField layoutX="97.0" layoutY="115.0" />
-      <Button layoutX="189.0" layoutY="200.0" mnemonicParsing="false" text="Suchen" />
+      <Button fx:id="searchbutton" layoutX="189.0" layoutY="200.0" mnemonicParsing="false" onAction="#getData" text="Suchen" />
    </children>
 </AnchorPane>
